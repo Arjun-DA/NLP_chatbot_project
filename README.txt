@@ -1,8 +1,24 @@
+NLP understand
+==============
+Natural Language Processing (NLP) is a branch of Machine learning (ML) that is focused on making computers understand human language.
+It is used to create language models, language translation apps like Google Translate, and virtual assistants, among other things.
+
+Through this project, we interact with the chatbot via Human Language.
+Dialogflow ES: Provides the standard agent type suitable for small and simple agents.
+throughout agent will make conversation that is (intent)
+Dialogflow algorithm will understand what you saying or what need to do.
+
+creating intent
+intent 1 = "New order"
+intent 2 = "track order"
+
+what we will give prompt into the intent it's responding.
+
 Directory structure
 ===================
 backend: Contains Python FastAPI backend code
 db: contains the dump of the database. you need to import this into your MySQL db by using MySQL workbench tool
-dialogflow_assets: this has training phrases etc. for our intents
+dialogflow_assets: this has training phrases etc. for our intent
 frontend: website code
 
 Install these modules
